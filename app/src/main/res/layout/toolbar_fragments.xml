@@ -26,7 +26,8 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@id/imageProfile"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imageEDIT"/>
 
     <TextView
         android:id="@+id/subt"
@@ -38,7 +39,8 @@
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/imageProfile"
-        app:layout_constraintTop_toBottomOf="@id/toolbar_title" />
+        app:layout_constraintTop_toBottomOf="@id/toolbar_title"
+        app:layout_constraintEnd_toStartOf="@id/imageEDIT"/>
 
     <View
         android:layout_width="match_parent"
@@ -48,5 +50,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/subt" />
+
+    <ImageView
+        android:id="@+id/imageEDIT"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:srcCompat="@drawable/editicn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

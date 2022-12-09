@@ -13,10 +13,32 @@
     <color name="color2">#808080 </color>
     <color name="color3">#EEEEEE</color>
     <color name="coloripple">#2342a5f5</color>
+    <color name="colorrippleelectric">#ffeb3b</color>
+    <color name="colorrippleelectricbackground">#23fff59d</color>
     <color name="color32">#4CAF50</color>
     <color type="color" name="menu_background">#ff9800</color>
     <color name="colorred2">#F44336</color>
     <color name="color17">#FFEB3B</color>
+
+    //Type pokemon
+    <color name="bug">#729f3f</color>
+    <color name="dark">#5A5979</color>
+    <color name="dragon">#61CAD9</color>
+    <color name="electric">#FFCE4B</color>
+    <color name="fairy">#EA1369</color>
+    <color name="fighting">#EF6138</color>
+    <color name="fire">#fd7d24</color>
+    <color name="flying">#879DAE</color>
+    <color name="ghost">#906790</color>
+    <color name="grass">#9bcc50</color>
+    <color name="ground">#CA8179</color>
+    <color name="ice">#D7EFF9</color>
+    <color name="normal">#C998A7</color>
+    <color name="poison">#b97fc9</color>
+    <color name="psychic">#f366b9</color>
+    <color name="rock">#8B3E21</color>
+    <color name="steel">#42BD94</color>
+    <color name="water">#58ABF6</color>
 
     //Basic Colors Material Design
     <array name="reds">

@@ -6,5 +6,6 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class Pokemon(
     val name: String,
-    val url: String
+    val url: String,
+    val types: List<PokemonType>
 ) : Parcelable

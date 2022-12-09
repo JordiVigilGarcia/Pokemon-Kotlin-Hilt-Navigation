@@ -24,7 +24,7 @@
     <dimen name="edittitle">18dp</dimen>
     <dimen name="topmargin">10dp</dimen>
     <dimen name="topmargin1">5dp</dimen>
-    <dimen name="edittextmargin">10dp</dimen>
+    <dimen name="edittextmargin">5dp</dimen>
 
     //-->Favorite Fragment -- favorite_fragment
     <dimen name="iconsize1">24dp</dimen>

@@ -21,6 +21,16 @@
         android:id="@+id/profileFragment"
         android:name="com.example.pokeapp.ui.destinations.profie.ProfileFragment"
         android:label="Profile"
-        tools:layout="@layout/profile_fragment" />
+        tools:layout="@layout/profile_fragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.pokeapp.ui.destinations.editor.EditProfileFragment"
+        android:label="EditProfileFragment"
+        tools:layout="@layout/editprofile_fragment"/>
 
 </navigation>

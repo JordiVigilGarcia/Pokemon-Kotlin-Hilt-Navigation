@@ -38,11 +38,29 @@
         android:id="@+id/pokemonTYPE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/colorrippleelectricbackground"
+        android:padding="5dp"
         android:text="Eléctrico"
+        android:textColor="@color/colorrippleelectric"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/pokemonTYPE2"
         app:layout_constraintStart_toEndOf="@id/pokemonNAME"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pokemonTYPE2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorrippleelectricbackground"
+        android:padding="5dp"
+        android:text="Eléctrico"
+        android:textColor="@color/colorrippleelectric"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf=""/>
+        app:layout_constraintStart_toEndOf="@id/pokemonTYPE"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
